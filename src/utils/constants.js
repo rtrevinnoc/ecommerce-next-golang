@@ -1,6 +1,6 @@
 export const ENV = {
   API_URL:
-    "https://zk0uv604ha.execute-api.us-east-2.amazonaws.com/gambit",
+    "https://zk0uv604ha.execute-api.us-east-2.amazonaws.com/gambit/gambit",
   MEDIA_API: "https://2t6cwbg0uc.execute-api.us-east-2.amazonaws.com/Produccion",
   MEDIA_URL: "https://ecomgo.s3.amazonaws.com",
   ENDPOINTS: {
@@ -15,3 +15,4 @@ export const ENV = {
   TOKEN: "token",
   BASKET: "basket",
 };
+
