@@ -23,7 +23,7 @@ export function Info(props) {
       <span className={styles.stock}>
         {`Quedan ${product.prodStock} unidade/s`}
       </span>
-      <span className={styles.price}>{product.prodPrice}€</span>
+      <span className={styles.price}>{product.prodPrice}$</span>
 
       <Button
         primary

@@ -65,7 +65,7 @@ export function Product(props) {
         <Image className={styles.image} src={image} alt={product.prodTitle} />
       </Table.Cell>
       <Table.Cell>{product.prodTitle}</Table.Cell>
-      <Table.Cell>{product.prodPrice}€</Table.Cell>
+      <Table.Cell>{product.prodPrice}$</Table.Cell>
       <Table.Cell>{product.prodStock} Unidades</Table.Cell>
       <Table.Cell className={styles.actions}>
         <Icon name="pencil" link onClick={openEditProduct} />

@@ -37,7 +37,7 @@ export function ListProducts(props) {
                   changeQuantityItem(product.prodID, data.value)
                 }
               />
-              <span>{product.prodPrice}€</span>
+              <span>{product.prodPrice}$</span>
               <Icon
                 name="trash alternate online"
                 link

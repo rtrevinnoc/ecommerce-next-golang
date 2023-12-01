@@ -36,7 +36,7 @@ export function Resume(props) {
       <div className={styles.prices}>
         <div>
           <span>Total</span>
-          <span>{total.toFixed(2)}€</span>
+          <span>{total.toFixed(2)}$</span>
         </div>
       </div>
 

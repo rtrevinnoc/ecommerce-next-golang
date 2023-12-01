@@ -46,7 +46,7 @@ export function ProductsDetails(props) {
           </div>
 
           <p className={styles.price}>
-            {product.quantity} x {product.prodPrice}€
+            {product.quantity} x {product.prodPrice}$
           </p>
         </div>
       ))}

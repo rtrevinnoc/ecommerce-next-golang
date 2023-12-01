@@ -31,7 +31,7 @@ export function Product(props) {
           <h3>{product.prodTitle}</h3>
 
           <div className={styles.footer}>
-            <span>{product.prodPrice}€</span>
+            <span>{product.prodPrice}$</span>
           </div>
 
           {lowStock && (

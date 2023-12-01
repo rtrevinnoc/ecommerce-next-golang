@@ -39,7 +39,7 @@ export function Order(props) {
         <ProductsDetails productsOrder={order.OrderDetails} />
         <AddressDetails addressId={order.orderAddId} />
 
-        <p className={styles.totalOrder}>{order.orderTotal}€</p>
+        <p className={styles.totalOrder}>{order.orderTotal}$</p>
       </Modal.Basic>
     </>
   );
